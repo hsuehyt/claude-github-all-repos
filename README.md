@@ -79,16 +79,6 @@ Then start a **new chat** and ask something like:
 
 ---
 
-## ⚠️ Don't confuse it with ChatGPT Codex Connector
-
-If you've used ChatGPT or Codex with GitHub before, your **Installed GitHub Apps** list may also have **ChatGPT Codex Connector** (by OpenAI). It has its own **All repositories** setting, but it has **nothing to do with Claude**. Changing it won't fix Claude's access.
-
-The Claude app is the one called **Claude**, with the orange logo.
-
-![The wrong app: GitHub settings page for ChatGPT Codex Connector by OpenAI](images/04-wrong-app-chatgpt-codex.png)
-
----
-
 ## Optional: let Claude create new repos
 
 The GitHub App gives Claude access to repos that **already exist**. To have Claude **create** a new repo, for example "make a GitHub repo with this tutorial", it needs a browser that's signed in to your GitHub account:
@@ -115,7 +105,7 @@ After that, Claude opens `github.com/new`, creates the repo, and pushes the file
 | Symptom | Fix |
 |---|---|
 | ⚠️ **Needs reconnecting** next to your account | Click **Fix** and approve the Claude app on GitHub (Step 2). |
-| Claude says it can't access a repo | Check **Repository access** is **All repositories** on the **Claude** app (not ChatGPT Codex Connector). Then use **Check repository status**. |
+| Claude says it can't access a repo | Check **Repository access** is **All repositories** on the **Claude** app. Then use **Check repository status**. |
 | Can't find the **Fix** button | It's in the **Claude desktop app** (Settings → Plugins → GitHub), not on GitHub. |
 | Claude can read repos but can't create a new one | Creating repos needs a signed-in browser. Sign in to GitHub in the built-in browser. |
 | Claude in Chrome says *"Browser extension is not connected"* while you use Edge | Edge isn't supported. Use the built-in browser, or install Google Chrome. |
